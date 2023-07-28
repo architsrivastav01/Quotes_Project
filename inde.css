@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: lightcyan;
+
+}
+
+.navbar {
+    background-color: rgb(29, 98, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: white;
+    margin: 2px 2px;
+    padding: 16px 18px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 16px 141px;
+    padding: 1px 14px;
+    color: rgb(32, 12, 12);
+    font-weight: bold;
+    font-size: x-large;
+}
+h2{
+    font-size: large;
+}
+.quotepage {
+    display: flex;
+    flex-direction: column;
+}
+.quotecard {
+    padding: 20px 16px;
+    margin: 17px 383px;
+    background-color: rgb(153, 189, 24);
+    color: black;
+    width: 490px;
+    height: 128px;
+    font-size: large;
+    font-weight: bolder;
+}
+p{
+    margin: 1px 7px;
+    padding: 1px 3px;
+    text-transform: capitalize;
+}
+button{
+    background-color: rgb(15, 82, 74);
+    color: white;
+    font-size: large;
+    padding: 4px 3px;
+    margin: 10px 11px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
